@@ -25,14 +25,14 @@ public class Shooting : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown("Fire1") && canShoot && timer >= .6f)
+        if (Input.GetButtonDown("Fire1") && canShoot && timer >= .4f)
         {
             Shoot();
         }
         if (timerOn)
         {
             timer += Time.deltaTime;
-            if (timer >= .6f)
+            if (timer >= .4f)
             {
                 timerOn = false;
             }

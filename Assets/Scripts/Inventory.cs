@@ -18,16 +18,7 @@ public class Inventory
         AddItem(new Item { itemType = Item.ItemType.Coin, amount = 1 });
         AddItem(new Item { itemType = Item.ItemType.Gem, amount = 1 });
         AddItem(new Item { itemType = Item.ItemType.Gem, amount = 1 });
-        AddItem(new Item { itemType = Item.ItemType.Gem, amount = 1 });
-        AddItem(new Item { itemType = Item.ItemType.Barricade, amount = 1 });
-        AddItem(new Item { itemType = Item.ItemType.Barricade, amount = 1 });
-        AddItem(new Item { itemType = Item.ItemType.Barricade, amount = 1 });
-        AddItem(new Item { itemType = Item.ItemType.Barricade, amount = 1 });
-        AddItem(new Item { itemType = Item.ItemType.Barricade, amount = 1 });
-        AddItem(new Item { itemType = Item.ItemType.Barricade, amount = 1 });
-        AddItem(new Item { itemType = Item.ItemType.Barricade, amount = 1 });
-        AddItem(new Item { itemType = Item.ItemType.Barricade, amount = 1 });
-        AddItem(new Item { itemType = Item.ItemType.Barricade, amount = 1 });
+        AddItem(new Item { itemType = Item.ItemType.Gem, amount = 1 });     
         AddItem(new Item { itemType = Item.ItemType.Barricade, amount = 1 });
         AddItem(new Item { itemType = Item.ItemType.Coin, amount = 1 });
         AddItem(new Item { itemType = Item.ItemType.Coin, amount = 100 });*/
